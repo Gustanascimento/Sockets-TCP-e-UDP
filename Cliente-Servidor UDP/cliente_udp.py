@@ -5,13 +5,8 @@ UDPSocket = socket(AF_INET, SOCK_DGRAM)
 print("Teste Cliente-Servidor UDP")
 print("Eu sou o cliente!")
 
-ja_iniciou = False
 
-
-while True:
-    global ja_iniciou
-
-    
+while True:  
     
     #Envia mensagem para o servidor:
     mensagem = input("\nDigite uma nova mensagem para enviar: ")
